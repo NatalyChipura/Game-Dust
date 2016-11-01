@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Content>
+    <Personages>
+		<!-- Герой -->
+		<Hero numMap="2">
+			<TextureAct act="Idle" name="hero_idle_" cntFrame="13" loop="true" />
+			<TextureAct act="Move" name="hero_move_" cntFrame="13" loop="false"/>
+			<TextureAct act="Hurt" name="hero_hurt_" cntFrame="6"/>
+			<TextureAct act="Die"  name="hero_die_" cntFrame="16"/>
+			<TextureAct act="Attack" name="hero_attack_" cntFrame="10"/>
+		</Hero>
+		<!-- Противник 1-го типа -->
+		<SockGreen numMap="4">
+			<TextureAct act="Idle" name="foe_idle_" cntFrame="13" loop="true"/>
+			<TextureAct act="Move" name="foe_move_" cntFrame="13"/>
+			<TextureAct act="Hurt" name="foe_hurt_" cntFrame="6"/>
+			<TextureAct act="Die" name="foe_die_" cntFrame="16"/>
+			<TextureAct act="Attack" name="foe_attack_" cntFrame="10"/>
+		</SockGreen>
+		<!-- Противник 2-го типа -->
+		<SockBrown numMap="5">
+			<TextureAct act="Idle" name="foe2_idle_" cntFrame="13" loop="true"/>
+			<TextureAct act="Move" name="foe2_move_" cntFrame="13"/>
+			<TextureAct act="Hurt" name="foe2_hurt_" cntFrame="6"/>
+			<TextureAct act="Die" name="foe2_die_" cntFrame="16"/>
+			<TextureAct act="Attack" name="foe2_attack_" cntFrame="10"/>
+		</SockBrown>
+    </Personages>
+    <Bonuses>
+		<!-- Бонус сердечко -->
+		<Heart numMap="6">
+			<TextureAct name="bonusHeart"/>
+		</Heart>
+    </Bonuses>
+	<Landscape>
+		<!-- Препятствие стена -->
+		<Wall numMap="0">
+			<TextureAct name="let" cntFrame="6"/>
+		</Wall>
+		<!-- Выход -->
+		<Exit numMap="3">
+			<TextureAct name="exit"/>
+		</Exit>
+		<!-- Пустая ячейка -->
+		<Empty numMap="1" />
+    </Landscape>
+  </Content>
+</data>
